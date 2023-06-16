@@ -51,17 +51,21 @@ button {
     text-transform: uppercase;
     color: #4D5AE5;
 }
+.footer-logo {
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+}
+.web {
+color: #4D5AE5;
+}
 .studio-dark {
     color: #2E2F42;
 }
 .studio-light {
-    font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
         color: #F4F4FD;
 }
 
@@ -129,4 +133,53 @@ background-color: #2E2F42;
 }
 .footer {
     background-color: #2E2F42;
+}
+
+
+
+
+
+.filters-btn-all {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background: #404BBF;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        padding: 12px 24px;
+        width: 69px;
+         height: 48px;
+}
+.filters-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 116px;
+    height: 48px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.footer-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
 }
