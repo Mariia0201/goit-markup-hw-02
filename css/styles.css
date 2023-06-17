@@ -1,11 +1,13 @@
 :root {
     --logo-dark: #2E2F42;
     --logo-light: #F4F4FD;
+    --btn: #4D5AE5;
+    --text: #434455;
 }
 
 /* Common styles */
 body {
-    font-family: sans-serif, Roboto;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 
@@ -15,7 +17,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text);
 }
 .title {
     font-weight: 700;
@@ -24,7 +26,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--logo-dark);
 }
 .subtitle {
     font-weight: 500;
@@ -66,7 +68,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 .footer-logo {
         font-weight: 800;
@@ -160,39 +162,31 @@ background-color: #404BBF;
 .footer {
     background-color: #2E2F42;
 }
-.two {
+.three {
     background-color: #F4F4FD;
 }
 
-.two-list {
+.three-list {
     background-color: #FFFFFF;
 }
 
 
-
-
-.filters-btn-all {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        text-align: center;
-        letter-spacing: 0.04em;
-        color: #FFFFFF;
-        background: #404BBF;
-        
-}
 .filters-btn {
 font-weight: 500;
 font-size: 16px;
+letter-spacing: 0.04em;
+color: var(--btn);
+background-color: var(--logo-light);
 line-height: 1.5;
 text-align: center;
-letter-spacing: 0.04em;
-color: #4D5AE5;
-    justify-content: center;
-    background: #F4F4FD;
-    border: 1px solid #E7E9FC;
+cursor: pointer;
 }
 
+.filters-btn:hover,
+.filters-btn-focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
 .footer-text {
     font-weight: 400;
         font-size: 16px;
