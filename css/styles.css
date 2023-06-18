@@ -67,7 +67,7 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--btn);
     font-family: "Raleway", sans-serif;
 }
 .footer-logo {
@@ -170,6 +170,10 @@ background-color: #404BBF;
     background-color: #FFFFFF;
 }
 
+.three-item{
+    background-color: #FFFFFF;
+}
+
 
 .filters-btn {
 font-weight: 500;
@@ -183,7 +187,7 @@ cursor: pointer;
 }
 
 .filters-btn:hover,
-.filters-btn-focus {
+.filters-btn:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
